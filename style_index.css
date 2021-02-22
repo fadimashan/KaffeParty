@@ -16,13 +16,13 @@
   font-family: "Spicy Rice";
 }
 
-.navbar-item >a {
+.navbar-item > a {
   text-shadow: 0 0 50px #fafc8f, 0 0 10px #f1f1f0;
   font-size: larger;
-
 }
+
 .bg-dark {
-  background-color: #d0d2d400!important;
+  background-color: rgba(39, 38, 38, 0.425) !important;
 }
 
 /* logo */
@@ -71,7 +71,7 @@ p {
   border: 2px solid rgb(253, 253, 253);
 }
 
-#img-3{
+#img-3 {
   padding-left: 30px;
 }
 
@@ -137,13 +137,17 @@ p {
 #testing-text,
 #testing-p,
 #event-text {
+  font-size: 24pt;
   padding-left: 50px;
   font-family: "Merienda", cursive;
 }
+hr.solid {
+  border-top: 3px solid #bbb;
+}
 
-footer{
+footer {
   background-color: rgba(39, 38, 38, 0.425);
-  height: 100px;
+  height:fit-content;
   width: initial;
-  padding-top: 25px ;
+  padding-top: 25px;
 }

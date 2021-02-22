@@ -1,15 +1,103 @@
 @import url("https://fonts.googleapis.com/css?family=Spicy+Rice");
 
+#page_name {
+  font-family: "Spicy Rice";
+  color: whitesmoke;
+  font-style: oblique;
+  text-shadow: 0 0 50px #5e5d5d, 0 0 15px #738006;
+}
+.bg-dark {
+    background-color: rgba(39, 38, 38, 0.425) !important;
+  }
 
-#page_name{
+  .navbar-toggler-icon{
+      color: royalblue;
+  }
+
+html {
+    height: 100%;
+    background-position-y: bottom;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url("extra/Coffee-cafe-drink.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  body {
+    padding-top: 80px;
+    background-color: transparent;
+  }
+
+  h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: whitesmoke;
+}
+
+
+.navbar-brand {
+  font-size: 3.25rem;
+}
+
+.navbar-nav {
     font-family: "Spicy Rice";
-    color: brown;
+  }
+
+.navbar-item > a {
+  text-shadow: 0 0 50px #fafc8f, 0 0 10px #f1f1f0;
+  font-size: larger;
 }
 
-.navbar-brand{
-    font-size: 3.25rem;
+
+.navbar-nav {
+  font-family: "Spicy Rice";
 }
 
-.navbar-nav{
-    font-family: "Spicy Rice";
+.col-md-3 > a>img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(39, 38, 38, 0.425);
 }
+.col-md-3 > h5{
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+.card-img-top {
+    
+    max-width: fit-content;
+    max-height: 300px;
+    object-fit:cover;
+}
+
+.card-img-top{
+    padding: auto;
+}
+
+.card-body > h5{
+    font-size: 12pt;
+    color: black;
+
+}
+.card-body> p {
+    font-size: 10pt;
+    color: black;
+
+}
+
+hr.solid {
+    border-top: 3px solid rgb(236, 233, 233);
+  }
+
+  footer {
+    background-color: rgba(39, 38, 38, 0.425);
+    height:fit-content;
+    width: initial;
+    padding-top: 25px;
+  }
