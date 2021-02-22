@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Spicy+Rice");
+
+
+#page_name{
+    font-family: "Spicy Rice";
+    color: brown;
+}
+
+.navbar-brand{
+    font-size: 3.25rem;
+}
+
+.navbar-nav{
+    font-family: "Spicy Rice";
+}

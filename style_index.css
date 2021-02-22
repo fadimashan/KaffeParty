@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Spicy+Rice");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+#page_name {
+  font-family: "Spicy Rice";
+  color: whitesmoke;
+  font-style: oblique;
+  text-shadow: 0 0 50px #5e5d5d, 0 0 15px #738006;
+}
+
+.navbar-brand {
+  font-size: 3.25rem;
+}
+
+.navbar-nav {
+  font-family: "Spicy Rice";
+}
+
+.navbar-item >a {
+  text-shadow: 0 0 50px #fafc8f, 0 0 10px #f1f1f0;
+  font-size: larger;
+
+}
+.bg-dark {
+  background-color: #d0d2d400!important;
+}
+
+/* logo */
+.fas {
+  padding-left: 30px;
+}
+
+html {
+  height: 100%;
+  background-position-y: bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.shared.com/content/images/2017/09/coffee-2538290_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body {
+  padding-top: 80px;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: whitesmoke;
+}
+
+#text1 {
+  font-size: 80px;
+  padding-left: 60px;
+  font-family: "Akaya Kanadaka", cursive;
+}
+
+#but-container {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+#img-2 {
+  margin-right: 30px;
+  border: 2px solid rgb(253, 253, 253);
+}
+
+#img-3{
+  padding-left: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+#btn-join {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 700;
+  color: #382424;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border: 8px solid #382424;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#btn-join:hover:before {
+  top: 0;
+}
+
+#btn-join:hover:after {
+  top: -100%;
+}
+
+#btn-join:before {
+  content: attr(data-title);
+  position: absolute;
+  padding: 15px 30px;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #382424;
+  color: #fff;
+  box-sizing: border-box;
+  transition: 0.7s;
+}
+
+#btn-join:after {
+  content: attr(data-title);
+  position: absolute;
+  padding: 15px 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #232323;
+  box-sizing: border-box;
+  transition: 0.7s;
+}
+
+#testing-text,
+#testing-p,
+#event-text {
+  padding-left: 50px;
+  font-family: "Merienda", cursive;
+}
+
+footer{
+  background-color: rgba(39, 38, 38, 0.425);
+  height: 100px;
+  width: initial;
+  padding-top: 25px ;
+}
