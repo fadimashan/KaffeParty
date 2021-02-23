@@ -1,15 +1,130 @@
 @import url("https://fonts.googleapis.com/css?family=Spicy+Rice");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-
-#page_name{
-    font-family: "Spicy Rice";
-    color: brown;
+#page_name {
+  font-family: "Spicy Rice";
+  color: whitesmoke;
+  font-style: oblique;
+  text-shadow: 0 0 50px #5e5d5d, 0 0 15px #738006;
 }
 
-.navbar-brand{
-    font-size: 3.25rem;
+.navbar-brand {
+  font-size: 3.25rem;
 }
 
-.navbar-nav{
-    font-family: "Spicy Rice";
+.navbar-nav {
+  font-family: "Spicy Rice";
+}
+
+.navbar-item > a {
+  font-size: larger;
+}
+
+.bg-dark {
+  background-color: rgba(39, 38, 38, 0.425) !important;
+}
+
+/* logo */
+.fas {
+  padding-left: 30px;
+}
+
+
+body {
+  padding-top: 80px;
+  background-color: transparent;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+
+h2,
+h3,
+h4,
+h5,
+p {
+  color: rgb(10, 10, 10);
+}
+
+.navbar-brand {
+  font-size: 3.25rem;
+}
+
+.navbar-nav {
+  font-family: "Spicy Rice";
+}
+
+.navbar-item > a {
+  color: white;
+  font-size: larger;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255);
+}
+
+.navbar-nav {
+  font-family: "Spicy Rice";
+}
+
+
+#banner-1{
+  height: 500px;
+  width: 100%;
+  margin-top: -100px;
+  background-position-y: top;
+   background: linear-gradient(rgb(239 235 235 / 13%), rgb(128 126 126 / 1%)), 
+    url("extra/about-background.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+ #start-text{
+   text-align: center;
+  height: 500px;
+  margin-top: 250px;
+}
+
+#text1{
+  font-style: oblique;
+  font-size: 34pt;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#about-text{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.emp-image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+#fot-row {
+  text-align: center;
+}
+
+#third-container {
+  margin-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#about-container{
+
+  margin-top: 40px;
+}
+
+hr.solid {
+  border-top: 3px solid rgb(236, 233, 233);
+  margin-left: 40px;
+  margin-right: 40px;
 }

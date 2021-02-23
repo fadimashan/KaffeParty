@@ -16,9 +16,14 @@
   font-family: "Spicy Rice";
 }
 
+
 .navbar-item > a {
-  text-shadow: 0 0 50px #fafc8f, 0 0 10px #f1f1f0;
+  color: white;
   font-size: larger;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255);
 }
 
 .bg-dark {
@@ -54,11 +59,17 @@ h5,
 p {
   color: whitesmoke;
 }
+#first-container,
+#but-container {
+  margin-top: 150px;
+}
 
 #text1 {
   font-size: 80px;
   padding-left: 60px;
   font-family: "Akaya Kanadaka", cursive;
+  justify-content: center;
+  text-align: center;
 }
 
 #but-container {
@@ -66,20 +77,29 @@ p {
   position: relative;
   justify-content: center;
 }
+
+#second-container {
+  margin-top: 10px;
+}
+#event-section {
+  margin-top: 250px;
+}
+
+#sc-fr-fi {
+  margin-top: 110px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+
 #img-2 {
-  margin-right: 30px;
   border: 2px solid rgb(253, 253, 253);
 }
 
-#img-3 {
-  padding-left: 30px;
+.col-sm-5 {
+  align-self: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: verdana;
-}
+
 
 #btn-join {
   position: absolute;
@@ -96,6 +116,8 @@ p {
   padding: 15px 30px;
   box-sizing: border-box;
   overflow: hidden;
+  font-family: "Merienda", cursive;
+
 }
 
 #btn-join:hover:before {
@@ -136,10 +158,28 @@ p {
 
 #testing-text,
 #testing-p,
-#event-text {
+#event-ss-text,
+#event-ths-text {
   font-size: 24pt;
-  padding-left: 50px;
   font-family: "Merienda", cursive;
+  text-align: center;
+}
+
+#event-ths-text {
+  padding-left: 50px;
+}
+#testing-text,
+#testing-p {
+  padding-left: 30px;
+}
+#third-section {
+  margin-top: 140px;
+  padding-bottom: 100px;
+}
+
+#four-section {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 hr.solid {
   border-top: 3px solid #bbb;
@@ -147,7 +187,13 @@ hr.solid {
 
 footer {
   background-color: rgba(39, 38, 38, 0.425);
-  height:fit-content;
+  height: fit-content;
   width: initial;
   padding-top: 25px;
+}
+
+#p-footer {
+  font-style: italic;
+  font-size: small;
+  text-align: center;
 }
